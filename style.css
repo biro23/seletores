@@ -1,0 +1,50 @@
+/* primero elemento */
+.lista-1 li:first-child {
+  background: #caf;
+}
+
+/* Ulitmo elemento */
+.lista-1 li:last-child {
+  background: #caf;
+}
+
+/* Segundo elemento */
+.lista-1 li:nth-child(2) {
+  background: yellow;
+}
+
+/* Segundo elemento */
+.lista-1 li:nth-child(3) {
+  background: green;
+}
+
+/* Segundo elemento */
+.lista-1 li:nth-child(4) {
+  background: rgb(234, 99, 72);
+}
+
+/* firs element and second list to do here  */
+
+.lista-2 li:first-child {
+  background: blue;
+}
+
+.lista-2 li:nth-child(2) {
+  border: 2px solid DodgerBlue;
+  border-radius: 4px;
+  background: #e7e7e7;
+  color: rebeccapurple;
+  padding: 20px;
+  margin: 10px;
+}
+
+a {
+  border: 1px;
+  background-color: yellow;
+  font-size: 45px;
+  text-decoration: none;
+  padding: 20px auto;
+  margin: 20px;
+  font-family: "Courier New", Arial;
+  font-weight: bold;
+}
